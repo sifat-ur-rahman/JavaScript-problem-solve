@@ -29,3 +29,9 @@ letter.length = 3
 
 //-------------------------------------------
 // problem: 4 
+
+//How to flatter a multi-dimensional array
+
+let num = [1, 2, [3, 4], 5, 6, [[7], 8]]
+let newNum = num.flat(Infinity)
+// console.log(newNum)
