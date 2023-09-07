@@ -35,3 +35,27 @@ letter.length = 3
 let num = [1, 2, [3, 4], 5, 6, [[7], 8]]
 let newNum = num.flat(Infinity)
 // console.log(newNum)
+
+
+//-------------------------------------------
+// problem: 5
+
+//Short conditionals
+
+const captain = "Sakib";
+
+//-------&&-------
+//Instead of doing this
+ if(captain === "Sakib"){
+    console.log('ok')
+ }
+ //we can use &&
+ captain === "Sakib" && console.log('ok')
+
+ //-----||-------
+ //Instead of doing this
+ if(captain !== "Sakib"){
+    console.log('Not ok')
+ }
+ //we can use &&
+ captain !== "Sakib" && console.log('Not ok')
