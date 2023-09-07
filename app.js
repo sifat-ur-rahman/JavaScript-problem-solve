@@ -72,3 +72,21 @@ const quote = "React is a JS framework & this framework is the most popular fron
 const newQuote = quote.replace(/framework/g,"library")
 // console.log(newQuote)
 
+
+
+
+ //-------------------------------------------
+// problem: 7
+
+//Know performance of a task 
+const startTime = performance.now()
+
+for (let i = 0; i <= 50; i++) {
+    // console.log(i)
+    
+}
+
+const endTime = performance.now()
+
+const time = `loop took ${endTime-startTime} milliseconds to finish`
+// console.log(time)
