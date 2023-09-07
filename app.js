@@ -59,3 +59,16 @@ const captain = "Sakib";
  }
  //we can use &&
  captain !== "Sakib" && console.log('Not ok')
+
+
+
+ //-------------------------------------------
+// problem: 6
+
+//Replace all occurances of a string
+const quote = "React is a JS framework & this framework is the most popular front-end framework right now"
+
+//Replace all occurances of 'framework' with 'library'.
+const newQuote = quote.replace(/framework/g,"library")
+// console.log(newQuote)
+
