@@ -8,3 +8,9 @@ let newArray=array.filter(Boolean)
 // console.log(newArray)
 
 
+// problem: 2 
+
+//Convert any value to boolean(true or false)
+
+let value = 'hero'
+console.log(!!value)
